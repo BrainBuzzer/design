@@ -102,3 +102,83 @@ a {
   width: 100%;
   border: 1px solid #707070;
 }
+
+.resume-container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: rgba(0,0,0,1);
+  text-align: center;
+  margin-top: 30px;
+}
+
+.seperator {
+  width: 150px;
+  align-content: center;
+}
+
+.details {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1.5fr 3fr 0.5fr 5.5fr 1.5fr;
+  grid-column-gap: 10px;
+}
+
+.section {
+  margin-top: 50px;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  color: rgba(0,0,0,0.70)
+}
+
+.section-content {
+  font-family: 'Nunito', sans-serif;
+  color: #707070;
+}
+
+.content {
+  margin-top: 15px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 15px;
+  border: 1px solid #707070;
+}
+
+.completed {
+  background-color: #707070;
+  height: 15px;
+}
+
+.seperate-column {
+  width: 50%;
+  border-right: 1px solid #707070;
+  left: 50%;
+}
+
+.right {
+  float: right;
+  font-weight: 200;
+}
+
+.main-text {
+  margin-bottom: 5px;
+}
+
+.time {
+  font-size: 0.8rem;
+  color: #909090;
+}
