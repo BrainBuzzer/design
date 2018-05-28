@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Nunito');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lobster|Nunito');
 
 body {
   font-family: 'Abril Fatface', serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 .hello {
@@ -52,4 +56,49 @@ body {
 
 .portfolio-button {
   background: rgba(0, 0, 0, 0.30);
+}
+
+.portfolio-container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.menu {
+  margin-top: 30px;
+}
+
+.home-button {
+  color: rgba(0,0,0,0.8);
+  outline: none;
+  font-size: 2rem;
+}
+
+.home-button:hover {
+  color: rgba(0,0,0,1);
+}
+
+.set {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  grid-column-gap: 10px;
+}
+
+.image-box {
+  width: 100%;
+}
+
+.project-name {
+  font-size: 1.5rem;
+  font-family: 'Lobster', sans-serif;
+  color: rgba(0,0,0,0.8)
+}
+
+.project-name:hover {
+  color: rgba(0,0,0,1)
+}
+
+.thumbnail {
+  width: 100%;
+  border: 1px solid #707070;
 }
